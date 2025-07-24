@@ -204,8 +204,12 @@ a {
   gap: 24px;
 }
 
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-item:first-child {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -255,6 +259,10 @@ a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-item:first-child {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .team-content {
   padding: 32px 0; /* B4 - внутрішні поля */
 }
@@ -301,6 +309,10 @@ a {
   background-color: #fff;
   border: 1px solid #e7e9fc;
   overflow: hidden;
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
